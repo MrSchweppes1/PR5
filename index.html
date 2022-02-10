@@ -13,8 +13,8 @@
     <title>COMPANY CONSULTING</title>
 </head>
 
-<body>
-    <header>
+<body> 
+    <header>         
         <div class="topnav">
             <div class="phone">
                 <i class="fa fa-phone" aria-hidden="true" style="margin-right: 7.602%;  color: white;"></i>
@@ -55,9 +55,15 @@
                 <a href="">CONTACT</a>
             </div>
         </nav>
+        <div class="slider-item">
+            <img src="img/headerBG.png" alt="">
+        </div>
+        <div class="slider-item">
+            <img src="img/bg2.jpg" alt="">
+        </div>   
         <div class="slider">
             <div class="sliders" id="slidersLeft" style="background-color: #1f87e4;">
-                <a style="color: white;" class="fa fa-chevron-left" aria-hidden="true"></a>
+                <a style="color: white;" class="fa fa-chevron-left" onclick="prevslide()" aria-hidden="true"></a>
             </div>
             <div class="txt_header">
                 <h1 style="text-transform: uppercase;">
@@ -69,9 +75,10 @@
                 <button>OUR COMPANY</button>
             </div>
             <div class="sliders" id="slidersRight" style="background-color: #1f87e4;">
-                <a style="color: white;" class="fa fa-chevron-right" aria-hidden="true"></a>
+                <a style="color: white;" class="fa fa-chevron-right" onclick="nextslide()" aria-hidden="true"></a>
             </div>
         </div>
+        <script src="cod.js"></script>
     </header>
 
     <footer>
