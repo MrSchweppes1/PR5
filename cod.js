@@ -1,25 +1,43 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var buttonL = document.getElementById("slidersLeft");
+var buttonR = document.getElementById("slidersRight");
+var bi = document.getElementById("had");
 
-function nextslide(){
-showSlides(slideIndex +=1);
-}
+var i = 1;
 
-function prevslide(){
-    showSlides(slideIndex -=1); 
-}
+buttonR.addEventListener("click", () => {
+    i += 1;
+    getRan();
+});
 
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("slider-item");
-    if (n > slides.length) {
-        slideIndex = 1;
+buttonL.addEventListener("click", () => {
+    i -= 1;
+    getRan();
+});
+
+function getRan() {
+
+    if (i > 3) {
+        i = 1;
     }
-    if (n < 1) {
-        slideIndex = slides.length;
+    if (i < 1) {
+        i = 3;
     }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    switch (i) {
+        case 1:
+            bi.style.background = "url(img/headerBG.png)";
+            bi.style.backgroundSize = "100%";
+            break;
+        case 2:
+            bi.style.background = "url(img/headerBG2.jpg)";
+            bi.style.backgroundSize = "100%";
+            break;
+        case 3:
+            bi.style.background = "url(img/headerBG3.jpg)";
+            bi.style.backgroundSize = "100%";
+            break;
+        default:
+            console.log("check");
+            break;
     }
-    slides[slideIndex- 1].style.display = "block";
+    bi.style.backgroundRepeat = "no-repeat";
 }

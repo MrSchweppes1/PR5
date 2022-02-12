@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -13,8 +12,8 @@
     <title>COMPANY CONSULTING</title>
 </head>
 
-<body> 
-    <header>         
+<body>
+    <header id="had">
         <div class="topnav">
             <div class="phone">
                 <i class="fa fa-phone" aria-hidden="true" style="margin-right: 7.602%;  color: white;"></i>
@@ -55,15 +54,9 @@
                 <a href="">CONTACT</a>
             </div>
         </nav>
-        <div class="slider-item">
-            <img src="img/headerBG.png" alt="">
-        </div>
-        <div class="slider-item">
-            <img src="img/bg2.jpg" alt="">
-        </div>   
         <div class="slider">
             <div class="sliders" id="slidersLeft" style="background-color: #1f87e4;">
-                <a style="color: white;" class="fa fa-chevron-left" onclick="prevslide()" aria-hidden="true"></a>
+                <a style="color: white;" id="arrow" class="fa fa-chevron-left" aria-hidden="true"></a>
             </div>
             <div class="txt_header">
                 <h1 style="text-transform: uppercase;">
@@ -75,12 +68,80 @@
                 <button>OUR COMPANY</button>
             </div>
             <div class="sliders" id="slidersRight" style="background-color: #1f87e4;">
-                <a style="color: white;" class="fa fa-chevron-right" onclick="nextslide()" aria-hidden="true"></a>
+                <a style="color: white;" class="fa fa-chevron-right" aria-hidden="true"></a>
             </div>
         </div>
         <script src="cod.js"></script>
     </header>
-
+    <div class="AboutUs" style="background-color: white;">
+        <img src="img/aboutusBG.png" alt="">
+        <div class="AboutUsTXT">
+            <h1 style="text-transform: uppercase; color: #6a8094;">
+                we are <span style="color: #1f87e4;">consulting</span> company help you in start
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            </p>
+            <button>
+                OUR COMPANY
+            </button>
+        </div>
+    </div>
+    <div class="services">
+        <div class="servicesTXT">
+            <h1 style="text-transform: uppercase; color: #6a8094;">
+                Our consulting services
+            </h1>
+            <p style="color: #6a8094;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua
+            </p>
+        </div>
+        <div class="blocks">
+            <div class="blk" id = "blk1" >
+                <i class="fa fa-sitemap" aria-hidden="true"></i>
+                <h1>
+                    Business planning, strategy &<br> Execution
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed doadiadipisicing<br> elit, sed do
+                    pisicing elit, sed do
+                </p>
+                <button>
+                    read more
+                </button>
+            </div>
+            <div class="blk" id = "blk2">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <h1>
+                    Financy projections and <br>analysis
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed doadiadipisicing<br> elit, sed do
+                    pisicing elit, sed do
+                </p>
+                <button>
+                    read more
+                </button>
+            </div>
+            <div class="blk" id = "blk3">
+                <i class="fa fa-university" aria-hidden="true"></i>
+                <h1>
+                    International business<br> opportunitis
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed doadiadipisicing<br> elit, sed do
+                    pisicing elit, sed do
+                </p>
+                <button>
+                    read more
+                </button>
+            </div>
+        </div>
+    </div>
     <footer>
 
     </footer>
