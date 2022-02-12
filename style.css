@@ -269,6 +269,7 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .areas .areasTXT{
     display: flex;
@@ -295,15 +296,160 @@ nav a{
     flex-direction: column;
     margin-left: 1.875vw;
 }
+.photo h1{
+    font-size: 0.9vw;
+    margin-top: 1.2vw;   
+    margin-bottom: 0;
+}
 .photo p{
     color: #4a657d;
     font-weight: 600;
     font-size: 0.9vw;
 }
-.photo h1{
+.chooseUS{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.chooseUSTXT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.68vw;
+}
+.chooseUSTXT h1{
+    font-size: 1.3vw;
+    margin: 0;
+    margin-top: 2vw;
+}
+.chooseUSTXT p{
+    font-size: 0.9vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.Statistics{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.static{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 9vw;
+    
+}
+.static:last-child {
+    margin-right: 0;
+}
+.static h1{
+    font-size: 4.5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.static p{
+    font-size: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.portfTXT{
+    margin-top: 6.25vw;
+    margin-bottom: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.68vw;
+}
+.portfTXT h1{
+    font-size: 1.3vw;
+    margin: 0;
+}
+.portfTXT p{
+    font-size: 0.9vw;
+    text-align: center;
+}
+.portfPhoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 3vw;
+}
+.portxt p{
+    margin-left: 3.125vw;
+    font-size: 1vw;
+}
+.portxt p:hover{
+    color: #1f87e4;
+}
+.photo2{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.photo2 img{
+    width: 24.65vw;
+}
+.PortPeople{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-top: 5vw;
+}
+.PortPeople .PortPeopleTXT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.68vw;
+}
+.PortPeople .PortPeopleTXT h1{
+    font-size: 1.3vw;
+    margin: 0;
+}
+.PortPeople .PortPeopleTXT p{
+    font-size: 0.9vw;
+    text-align: center;
+    margin-bottom: 3.2vw;
+}
+.PortPeoplePhotos{
+    display: flex;
+    flex-direction: row;
+}
+.PortPeoplephoto{
+    width: 15.9vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.9375vw;
+}
+.PortPeoplephoto h1{
     font-size: 0.9vw;
     margin-top: 1.2vw;   
     margin-bottom: 0;
+}
+.PortPeoplephoto h2{
+    font-size: 0.9vw; 
+    margin-bottom: 0;
+}
+.PortPeoplephoto p{
+    color: #4a657d;
+    font-weight: 600;
+    font-size: 0.9vw;
+    font-variant: ;
 }
 /* @media screen and (min-width: 200px) and (max-width: 300px) {
     .topnav{
