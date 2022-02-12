@@ -473,9 +473,10 @@ nav a{
     font-size: 0.9vw;
 }
 .foot{
-    height: 3.125vw;
+    height:2vw;
     width: 100%;
     background-color: #6a8094;
+    margin-top: 7vw;
 }
 
 
